@@ -1,7 +1,7 @@
 function place(){ 
     let visit = document.getElementById('city').value
     console.log(visit)
-    let p = fetch("http://api.weatherapi.com/v1/current.json?key=a18d009f33eb473d9c9175805231912&q=${visit}&aqi=no");
+    let p = fetch("http://api.weatherpi.com/v1/current.json?key=a18d009f33eb473d9c9175805231912&q=${visit}&aqi=n");
    
     p.then(response =>{
        if (!response.ok) {
